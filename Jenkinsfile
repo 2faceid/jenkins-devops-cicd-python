@@ -23,7 +23,7 @@ pipeline {
                 sh '''
                 cd myapp
                 python3 hello.py
-                python3 hello.py --vat_amount=20
+                python3 hello.py --calculate_vat --price 100 --vat_rate 20
                 '''
             }
         }

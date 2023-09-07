@@ -4,11 +4,10 @@ def hello(name="World"):
   return "Hello %s!" % name
 
 
-def calculate_vat(vat_amount=17,price = 5 * (vat_rate / 100)):
-
-    
-    # fire.Fire(total_price = price + vat_amount)
-    return vat_amount + price
+def calculate_vat(price, vat_rate=17):
+    vat_amount = price * (vat_rate / 100)
+    total_price = price + vat_amount
+    return vat_amount, total_price
 
 
 if __name__ == '__main__':
