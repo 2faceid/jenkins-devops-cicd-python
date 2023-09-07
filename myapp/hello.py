@@ -4,9 +4,9 @@ def hello(name="World"):
   return "Hello %s!" % name
 
 
-def calculate_vat(vat_amount=price * (vat_rate / 100),price=price + vat_amount):
+def calculate_vat(vat_amount=Price * (vat_rate / 100),price=Price + vat_amount):
 
-    return total_price vat_amount 
+    return total_price 
 
 
 if __name__ == '__main__':
