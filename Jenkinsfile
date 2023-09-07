@@ -23,7 +23,7 @@ pipeline {
                 sh '''
                 cd myapp
                 python3 hello.py
-                python3 hello.py --name=lior
+                python3 hello.py --vat_amount=20
                 '''
             }
         }
